@@ -1,0 +1,34 @@
+### api/v1/members
+POST http://localhost:8080/api/v1/members
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "hello2"
+}
+
+### api/v2/members
+POST http://localhost:8080/api/v2/members
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "new-hello"
+}
+
+### api/v2/members
+PUT http://localhost:8080/api/v2/members/29
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "modify-hello"
+}
+
+### api/v1/members
+GET http://localhost:8080/api/v1/members
+Accept: application/json
+
+### api/v2/members
+GET http://localhost:8080/api/v2/members
+Accept: application/json

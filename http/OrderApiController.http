@@ -1,0 +1,27 @@
+### v1/simple-orders
+GET http://localhost:8080/api/v1/orders
+Accept: application/json
+
+### v2/orders
+GET http://localhost:8080/api/v2/orders
+Accept: application/json
+
+### /api/v3/orders
+GET http://localhost:8080/api/v3/orders
+Accept: application/json
+
+### /api/v3.1/orders
+GET http://localhost:8080/api/v3.1/orders?offset=0
+Accept: application/json
+
+### /api/v4/orders
+GET http://localhost:8080/api/v4/orders
+Accept: application/json
+
+### /api/v5/orders
+GET http://localhost:8080/api/v5/orders
+Accept: application/json
+
+### /api/v6/orders
+GET http://localhost:8080/api/v6/orders
+Accept: application/json
